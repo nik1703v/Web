@@ -4,7 +4,7 @@ const lists = document.querySelectorAll("li");
 const spans = document.getElementsByTagName("span");
 const saveBtn = document.querySelector("#save");
 const clearBtn = document.querySelector("#clear");
-const addDtn = document.querySelector("#addBtn");
+const addBtn = document.querySelector("#addBtn");
 
 for (let i = 0; i < lists.length; i++) {
     let span1 = document.createElement("span");
